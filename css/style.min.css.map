@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAGA,AAAA,IAAI,AAAC,CACH,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,sBAAsB,CAAE,WAAW,CAAG",
     "sources": [
-        "../style.sass"
+        "../style.sass",
+        "../colors.sass",
+        "../size.sass"
     ],
     "names": [],
     "file": "style.min.css"

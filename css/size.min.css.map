@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../size.sass"
+    ],
+    "names": [],
+    "file": "size.min.css"
+}
