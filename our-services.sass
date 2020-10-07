@@ -1,0 +1,49 @@
+@import './colors' 
+@import './size' 
+
+.our-services 
+  display: flex
+  flex-direction: column
+  align-items: center
+  font-family: 'Mulish', sans-serif
+  margin-top: 4.5em
+  height: auto
+  h1 
+    font-size: 2.25em
+  hr 
+    width: 3.5em
+    height: 0.125em
+    background-color: $black
+  p 
+    font-size: 1.125em
+    color: $gray
+    // text-align: center
+    margin-bottom: 5.875em
+  button 
+    width: 12.5em
+    height: 3.5em
+    border-radius: 3.5em
+    border-color: $blue
+    color: $blue
+    background-color: $white
+    margin-top: 3.875em
+  &__content 
+    display: flex
+    justify-content: space-evenly
+  &__block 
+    display: flex
+    flex-direction: column
+    align-items: end
+    width: 21.875em
+    height: 19.75em
+    border-radius: 1.25em
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.1)
+    margin-right: 2.125em
+    margin-bottom: 1em
+  &__inner 
+    padding: 50px
+    h1 
+      font-size: 1.5em
+      color: $black
+    p 
+      color: $gray
