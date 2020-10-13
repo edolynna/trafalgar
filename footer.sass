@@ -1,0 +1,34 @@
+@import './colors' 
+@import './size'
+
+.footer 
+  display: flex
+  justify-content: space-between
+  background-color: $blue
+  font-family: 'Mulish', sans-serif
+  color: $white
+  padding: 6.875em
+  &__trafalgar
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    width: 30em
+  &__logo
+    display: flex
+    h1 
+      font-size: 1.5em
+      margin-left: 0.75em
+    p 
+      font-size: 1.125em
+  &__company, &__region, &__help
+    display: flex
+    flex-direction: column
+    h1 
+      font-size: 1.25em
+  &__block
+    display: flex
+    flex-direction: column
+    a
+      font-size: 1.125em
+      padding: 0.3125em 0 0.3125em 0
+      cursor: pointer
