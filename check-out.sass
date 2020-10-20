@@ -58,45 +58,49 @@
       padding: 0
     img 
       margin-left: 0.625em
-  @media (max-width: $desktop) and (min-width: $laptop)
-    .check-out 
+
+@media (max-width: $desktop) and (min-width: $laptop)
+  .check-out 
+    h1 
+      font-size: 1.5625em
+    hr 
+      width: 3.375em
+      height: 0.125em
+    a 
+      padding: 2.5em
+    button
+      width: 11.5em
+      height: 3.5em
+      border-radius: 3.4375em
+    &__content 
+      padding: 2.5em
+    &__block
+      width: 15.375em
+      height: 21.375em
+      border-radius: 1.25em
+      box-shadow: 0.25em 0.25em 0.25em rgba(0,0,0,0.1)
+    .medium
+      margin-left: 2em
+      margin-right: 2em
+    &__img 
+      img 
+        width: 15.375em
+        object-fit: cover
+        border-radius: 1.25em 1.25em 0 0 
+    &__inner 
+      padding: 1.3em
+    &__heading 
       h1 
-        font-size: 1.625em
-      hr 
-        width: 3.375em
-        height: 0.125em
+        font-size: 0.9375em
+    &__text 
+      p 
+        font-size: 0.75em
+    &__link
+      cursor: pointer
       a 
-        padding: 2.5em
-      button
-        width: 12.5em
-        height: 3.375em
-        border-radius: 3.4375em
-      &__content 
-        padding: 2.5em
-      &__block
-        width: 21.875em
-        height: 30.375em
-        border-radius: 1.25em
-        box-shadow: 0.25em 0.25em 0.25em rgba(0,0,0,0.1)
-      .medium
-        margin-left: 2em
-        margin-right: 2em
-      &__img 
-        img 
-          object-fit: cover
-          border-radius: 1.25em 1.25em 0 0 
-      &__inner 
-        padding: 1.625em
-      &__heading 
-        h1 
-          font-size: 1.25em
-      &__text 
-        p 
-      &__link
-        cursor: pointer
-        a 
-          font-size: 1.0625em
-          font-weight: 600
-          padding: 0
-        img 
-          margin-left: 0.625em
+        font-size: 0.75em
+        font-weight: 600
+        padding: 0
+      img 
+        width: 1em
+        margin-left: 0.625em

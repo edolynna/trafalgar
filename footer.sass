@@ -32,3 +32,26 @@
       font-size: 1.125em
       padding: 0.3125em 0 0.3125em 0
       cursor: pointer
+
+@media (max-width: $desktop) and (min-width: $laptop)
+  .footer 
+    padding: 4.875em
+    &__trafalgar
+      width: 30em
+    &__logo
+      display: flex
+      h1
+        font-size: 1.125em
+        margin-left: 0.75em
+      p 
+        font-size: 1em
+      img 
+        width: 1.875em
+    &__company, &__region, &__help
+      h1 
+        font-size: 0.875em
+    &__block
+      a
+        font-size: 0.875em
+        padding: 0.3125em 0 0.3125em 0
+        cursor: pointer
