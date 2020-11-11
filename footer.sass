@@ -39,7 +39,6 @@
     &__trafalgar
       width: 30em
     &__logo
-      display: flex
       h1
         font-size: 1.125em
         margin-left: 0.75em
@@ -53,5 +52,25 @@
     &__block
       a
         font-size: 0.875em
-        padding: 0.3125em 0 0.3125em 0
-        cursor: pointer
+
+@media (max-width: $laptop) and (min-width: $tablet)
+  .footer 
+    padding: 2.875em
+    &__trafalgar
+      width: 17em
+      p 
+        font-size: 0.6875em
+    &__logo
+      h1
+        font-size: 0.875em
+        margin-left: 0.75em
+      p 
+        font-size: 0.6875em
+      img 
+        width: 1.6em
+    &__company, &__region, &__help
+      h1 
+        font-size: 0.75em
+    &__block
+      a
+        font-size: 0.6875em
