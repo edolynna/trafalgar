@@ -16,6 +16,7 @@
     padding: 5.625em
     h1 
       font-size: 2.125em
+      color: $black
     hr 
       width: 3.375em
       height: 0.125em
@@ -81,3 +82,27 @@
         height: 3.3em
         margin-top: 2em
         border-radius: 3.5em
+
+@media (max-width: $tablet) and (min-width: $phone)
+  .healthcare-providers
+    padding: 0em
+    &__pic 
+      display: none
+      // img 
+      //   width: 21.625em
+    &__content
+      padding: 2.625em
+      h1 
+        font-size: 1.25em
+      hr 
+        width: 2.375em
+        height: 0.125em
+        margin-left: 0
+      p 
+        font-size: 0.625em
+        line-height: 2
+      button 
+        width: 11em
+        height: 3.3em
+        margin-top: 2em
+        border-radius: 3.5em        

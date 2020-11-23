@@ -45,6 +45,7 @@ header
     h1 
       font-size: 2.625em
       width: 10em
+      color: $black
     p 
       font-size: 1.125em
       line-height: 2
@@ -63,7 +64,7 @@ header
   &__right
     img 
       width: 40.375em
-      height: 36.5em
+      // height: 36.5em
       margin-top: 7.5em
 
 @media (max-width: $desktop) and (min-width: $laptop)
@@ -139,3 +140,47 @@ header
       img 
         width: 22.75em
         margin-top: 3.625em
+
+
+@media (max-width: $tablet) and (min-width: $phone)    
+  .header 
+    &__dots
+      margin-top: 7em
+      width: 4em
+    &__top 
+      margin-top: 3.5em
+    &__logo 
+      margin-right: 15em
+      h1  
+        font-size: 0.75em
+        // margin-left: 0.75em
+      img 
+          width: 1.625em
+    &__link 
+      margin-right: 2.5em
+      font-size: 0.6em
+    &__menu
+      display: none 
+    &__content 
+      // flex-direction: column
+    &__left 
+      margin-right: 5em
+      margin-top: 8em
+      margin-bottom: 5em
+      h1 
+        font-size: 1.5em
+        width: 10em
+      p 
+        font-size: 0.6875em
+        line-height: 2
+        width: 20em
+      button 
+        width: 10.5em
+        height: 3em
+        margin-top: 2.25em
+        border-radius: 3.4375em
+    &__right
+      display: none
+      // img 
+      //   width: 11.375em
+      //   margin-top: 3.625em

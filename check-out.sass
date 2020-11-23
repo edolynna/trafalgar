@@ -8,6 +8,7 @@
   font-family: 'Mulish', sans-serif
   h1 
     font-size: 2.125em
+    color: $black
   hr 
     width: 3.375em
     height: 0.125em
@@ -46,6 +47,7 @@
   &__heading 
     h1 
       font-size: 1.25em
+      color: $black
   &__text 
     p 
       color: $gray
@@ -124,6 +126,54 @@
       width: 11.75em
       height: 17.25em
       border-radius: 1em
+    .medium
+      margin-left: 2em
+      margin-right: 2em
+    &__img 
+      img 
+        width: 11.75em
+        object-fit: cover
+        border-radius: 1em 1em 0 0 
+    &__inner 
+      padding: 1em
+    &__heading 
+      h1 
+        font-size: 0.75em
+    &__text 
+      p 
+        font-size: 0.5625em
+    &__link
+      cursor: pointer
+      a 
+        font-size: 0.5625em
+        font-weight: 600
+        padding: 0
+      img 
+        width: 1em
+        margin-left: 0.625em
+
+@media (max-width: $tablet) and (min-width: $phone)
+  .check-out 
+    h1 
+      font-size: 1.375em
+    hr 
+      width: 3em
+      height: 0.125em
+    a 
+      padding: 2.5em
+    button
+      width: 11em
+      height: 3.3em
+      border-radius: 3.4375em
+    &__content 
+      padding: 2.5em
+      flex-direction: column
+      align-items: center
+    &__block
+      width: 11.75em
+      height: 17.25em
+      border-radius: 1em
+      margin-bottom: 20px
     .medium
       margin-left: 2em
       margin-right: 2em
