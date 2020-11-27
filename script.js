@@ -2,11 +2,11 @@ $(document).ready(function() {
   let position = 0;
   const slidesToShow = 1;
   const slidesToScroll = 1;
-  const container = $('.container');
-  const track = $('.track');
-  const box = $('.box');
-  const btnPrev = $('.btn-prev');
-  const btnNext = $('.btn-next');
+  const container = $('.cusromer-say__container');
+  const track = $('.cusromer-say__track');
+  const box = $('.cusromer-say__box');
+  const btnPrev = $('.buttons__btn-prev');
+  const btnNext = $('.buttons__btn-next');
   const boxCount = box.length;
   const boxWidth = container.width() / slidesToShow;
   const movePosition = slidesToScroll * boxWidth;
