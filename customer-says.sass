@@ -14,9 +14,8 @@
   width: 66.25em
   height: 24em
   background: linear-gradient(#67C3F3, #5A98F2)
-  // box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.3)
   font-family: 'Mulish', sans-serif
-  border-radius: 22px
+  border-radius: 1.375em
   color: $white
   h1 
     font-size: 2.125em
@@ -30,9 +29,9 @@
     justify-content: center
     flex-direction: column
     align-items: center
-    margin-bottom: 25px
+    margin-bottom: 1.5625em
     h1 
-      margin-top: 0px
+      margin-top: 0em
   &__container
     display: flex
     align-items: center
@@ -52,36 +51,104 @@
   &__photo 
     img 
       border-radius: 50%
-      border: 5px solid #FFFFFF
+      border: 0.3125em solid #FFFFFF
       width: 7em
       height: 7em
       background-size: cover
   &__names 
-    margin: 25px  
+    margin: 1.5625em 
     h2 
       font-size: 1.25em
     p 
       font-size: 1.0625em
       margin-top: 0
   &__text 
-    width: 460px
+    width: 28.75em
     p 
       font-size: 1.125em
 
 .buttons 
   display: flex 
   align-items: center  
-  padding: 40px
+  padding: 2.5em
   &__btn-prev
     transform: rotateZ(180deg) rotateX(180deg)
     background: none
     border: none
-    margin-right: 20px
+    margin-right: 1.25em
     img 
       width: 2em
   &__btn-next  
     background: none
     border: none
-    margin-left: 20px
+    margin-left: 1.25em
     img 
       width: 2em
+
+@media (max-width: $desktop) and (min-width: $laptop)       
+  .cusromer-say  
+    width: 49.375em
+    height: 17.75em
+    border-radius: 1em
+    h1 
+      font-size: 1.8em
+    hr 
+      width: 3.375em
+      height: 0.125em
+    &__name-page
+      h1 
+        margin-top: 0em
+    &__box 
+      min-width: 50em
+    &__photo 
+      img 
+        width: 6em
+        height: 6em
+    &__names 
+      margin: 1.5625em
+      h2 
+        font-size: 0.9375em
+      p 
+        font-size: 0.8125em
+    &__text 
+      width: 20.3125em
+      p 
+        font-size: 0.875em
+
+  .buttons 
+    padding: 2.1875em
+
+
+@media (max-width: $laptop) and (min-width: $tablet)  
+  .cusromer-say  
+    width: 37.5em
+    height: 13.5em
+    border-radius: 0.75em
+    h1 
+      font-size: 1.3em
+    hr 
+      width: 3.375em
+      height: 0.125em
+    &__name-page
+      margin-bottom: 0.625em
+      h1 
+        margin-top: 0em
+    &__box 
+      min-width: 50em
+    &__photo 
+      img 
+        width: 4.5em
+        height: 4.5em
+    &__names 
+      margin: 1.5625em
+      h2 
+        font-size: 0.75em
+      p 
+        font-size: 0.55em
+    &__text 
+      width: 16.0625em
+      p 
+        font-size: 0.75em
+
+  .buttons 
+    padding: 2.1875em
